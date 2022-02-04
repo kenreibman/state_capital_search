@@ -3,7 +3,7 @@ const matchList = document.querySelector('#match-list');
 
 // Search states.json and filters
 const searchStates = async searchText => { // Using Fetch API to bring in JSON data
-    const res = await fetch('../data/states.json');
+    const res = await fetch('../public/states.json');
     const states = await res.json();
 
     // Get matches to current text input
