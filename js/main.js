@@ -19,7 +19,7 @@ const searchStates = searchText => {
     // Clear when input or matches are empty
     if (searchText.length === 0) {
         matches = [];
-        matchList.innterHTML = '';
+        matchList.innerHTML = '';
     }
 
     outputHtml(matches);
